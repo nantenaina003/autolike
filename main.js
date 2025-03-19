@@ -126,9 +126,3 @@ sun.addEventListener('click', function(){
 var button = document.querySelector('.button');
 var num1 = document.querySelector('.number').value;
 var inp1 = document.querySelector('.input').value;
-
-button.addEventListener('click', function(){
- if (num1 === "" && inp1 === "") {
- alert('Veuillez completer le champ vide!!!');
-}
-});
